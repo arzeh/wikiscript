@@ -1,11 +1,11 @@
 <div align="center">
 
-# Wiki-bot
+# Autowiki
 
 **A zero-dependency mediawiki API client for JavaScript.**
 
-[![GitHub](https://img.shields.io/github/license/arzeh/wiki-bot)](https://github.com/arzeh/wiki-bot/blob/main/LICENSE.md)
-[![npm](https://img.shields.io/npm/v/wiki-bot?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/wiki-bot)
+[![GitHub](https://img.shields.io/github/license/arzeh/wikiscript)](https://github.com/arzeh/wikiscript/blob/main/LICENSE.md)
+[![npm](https://img.shields.io/npm/v/wikiscript?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/wikiscript)
 
 </div>
 
@@ -31,14 +31,14 @@ to do so in a future version.
 ## Installation
 
 ``` sh
-npm install wiki-bot
-yarn add wiki-bot
+npm install wikiscript
+yarn add wikiscript
 ```
 
 ## Usage
 
 ``` ts
-import { Wiki } from 'wiki-bot';
+import { Wiki } from 'wikiscript';
 
 function main() {
   const wiki = new Wiki('https://mywiki.com/api.php');

@@ -1,5 +1,5 @@
 {
-  "name": "wiki-bot",
+  "name": "wikiscript",
   "version": "0.0.1",
   "description": "MediaWiki API client.",
   "keywords": [
@@ -26,9 +26,9 @@
       "require": "./dist/main.cjs"
     }
   },
-  "homepage": "https://github.com/arzeh/wiki-bot#readme",
-  "bugs": "https://github.com/arzeh/wiki-bot/issues",
-  "repository": "github:arzeh/wiki-bot",
+  "homepage": "https://github.com/arzeh/wikiscript#readme",
+  "bugs": "https://github.com/arzeh/wikiscript/issues",
+  "repository": "github:arzeh/wikiscript",
   "devDependencies": {
     "@eslint/js": "^9.35.0",
     "@eslint/json": "^0.13.2",

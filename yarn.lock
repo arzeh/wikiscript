@@ -3301,9 +3301,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wiki-bot@workspace:.":
+"wikiscript@workspace:.":
   version: 0.0.0-use.local
-  resolution: "wiki-bot@workspace:."
+  resolution: "wikiscript@workspace:."
   dependencies:
     "@eslint/js": "npm:^9.35.0"
     "@eslint/json": "npm:^0.13.2"
