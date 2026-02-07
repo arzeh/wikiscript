@@ -1,4 +1,44 @@
 {
-  "name": "mwiki",
-  "packageManager": "yarn@4.9.4"
+  "name": "wiki-bot",
+  "version": "0.0.1",
+  "description": "MediaWiki API client.",
+  "keywords": [
+    "api",
+    "fandom",
+    "mediawiki",
+    "miraheze",
+    "wiki",
+    "wiki.gg"
+  ],
+  "license": "GPL-3.0-only",
+  "packageManager": "yarn@4.9.4",
+  "type": "module",
+  "main": "dist/main.cjs",
+  "module": "dist/main.mjs",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/main.d.ts",
+      "import": "./dist/main.mjs",
+      "require": "./dist/main.cjs"
+    }
+  },
+  "homepage": "https://github.com/arzeh/wiki-bot#readme",
+  "bugs": "https://github.com/arzeh/wiki-bot/issues",
+  "repository": "github:arzeh/wiki-bot",
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "@eslint/json": "^0.13.2",
+    "@stylistic/eslint-plugin": "^5.3.1",
+    "@types/node": "^24.4.0",
+    "eslint": "^9.35.0",
+    "globals": "^16.4.0",
+    "tsdown": "^0.15.1",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.43.0",
+    "vitest": "^3.2.4"
+  }
 }
